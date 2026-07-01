@@ -1085,6 +1085,48 @@ footer{display:flex;align-items:center;justify-content:center;gap:12px;text-alig
 .it-sub-pill{display:inline-block;padding:2px 8px;border-radius:6px;font-size:10px;font-weight:600;background:#F1F1EF;color:#787774;white-space:nowrap;margin:1px 2px 1px 0}
 .it-empty{padding:24px;text-align:center;color:#9B9A97;font-size:12px}
 
+/* 학습자 조편성 섹션 */
+.lrn-section-title{font-size:15px;font-weight:800;color:#37352F;margin:24px 0 12px;padding-left:12px;border-left:4px solid #1565C0}
+.lrn-summary-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.lrn-sum-card{background:#fff;border:1.5px solid #EBEAE7;border-radius:12px;padding:12px 16px;text-align:center;min-width:90px;flex:1}
+.lrn-sum-card.blue{border-top:3px solid #1565C0}
+.lrn-sum-card.teal{border-top:3px solid #1AA89C}
+.lrn-sum-n{font-size:18px;font-weight:800;color:#1565C0}
+.lrn-sum-card.teal .lrn-sum-n{color:#1AA89C}
+.lrn-sum-l{font-size:11px;color:#787774;margin-top:3px}
+.lrn-region-block{margin-bottom:20px}
+.lrn-region-hd{font-size:13px;font-weight:800;color:#fff;padding:10px 16px;border-radius:10px 10px 0 0;display:flex;align-items:center;gap:8px}
+.lrn-region-hd.cc{background:linear-gradient(135deg,#1565C0,#1976D2)}
+.lrn-region-hd.wj{background:linear-gradient(135deg,#1AA89C,#0D7A70)}
+.lrn-school-block{background:#fff;border:1.5px solid #EBEAE7;border-left:4px solid #1565C0;margin-bottom:12px;border-radius:0 0 10px 10px}
+.lrn-school-block.wj{border-left-color:#1AA89C}
+.lrn-school-hd{display:flex;align-items:center;gap:12px;padding:10px 16px;background:#FAFAF9;border-bottom:1px solid #EBEAE7;flex-wrap:wrap}
+.lrn-school-type{font-size:12px;font-weight:800;color:#fff;padding:3px 10px;border-radius:6px;background:#1565C0}
+.lrn-school-type.elem{background:#1976D2}
+.lrn-school-type.mid{background:#0D47A1}
+.lrn-school-type.wj.elem{background:#1AA89C}
+.lrn-school-type.wj.mid{background:#0D7A70}
+.lrn-school-place{font-size:11px;color:#787774}
+.lrn-school-total{font-size:12px;font-weight:700;color:#1565C0;margin-left:auto}
+.lrn-round-block{padding:10px 16px;border-bottom:1px solid #F0F0EE}
+.lrn-round-block:last-child{border-bottom:none}
+.lrn-round-hd{display:flex;align-items:center;gap:10px;margin-bottom:8px;flex-wrap:wrap}
+.lrn-round-badge{font-size:11px;font-weight:700;background:#E3F2FD;color:#1565C0;padding:3px 10px;border-radius:6px}
+.lrn-round-date{font-size:11px;color:#9B9A97}
+.lrn-round-cnt{font-size:12px;font-weight:700;color:#37352F}
+.lrn-table-grid{display:flex;gap:8px;flex-wrap:wrap}
+.lrn-table-card{border:2px solid #1565C0;border-radius:10px;overflow:hidden;min-width:90px;flex:1;max-width:140px}
+.lrn-table-card.wj{border-color:#1AA89C}
+.lrn-table-hd{background:#1565C0;color:#fff;font-size:10px;font-weight:700;padding:4px 8px;text-align:center}
+.lrn-table-card.wj .lrn-table-hd{background:#1AA89C}
+.lrn-table-seats{display:flex;flex-direction:column;gap:3px;padding:6px 8px;background:#F0F7FE}
+.lrn-table-card.wj .lrn-table-seats{background:#E8F7F5}
+.lrn-seat-row{display:flex;gap:3px;justify-content:center}
+.lrn-seat{width:20px;height:20px;border-radius:50%;background:#1565C0;display:flex;align-items:center;justify-content:center;font-size:8px;font-weight:700;color:#fff}
+.lrn-table-card.wj .lrn-seat{background:#1AA89C}
+.lrn-table-count{text-align:center;font-size:10px;font-weight:700;color:#1565C0;padding:4px;background:#E3F2FD}
+.lrn-table-card.wj .lrn-table-count{color:#1AA89C;background:#D0F0EC}
+
 
 .pm-samc-wrap{background:#fff;border:1.5px solid #EBEAE7;border-radius:14px;padding:10px;margin-bottom:14px;text-align:center;overflow:hidden}
 .pm-samc-img{max-width:100%;height:auto;border-radius:8px}
@@ -1314,13 +1356,13 @@ footer{display:flex;align-items:center;justify-content:center;gap:12px;text-alig
       <div>
         <div style="font-size:12px;font-weight:700;color:#0D47A1;margin-bottom:5px">🌿 춘천 137명 · 7클래스</div>
         <div class="rrow rg" style="padding:6px 10px;margin-bottom:3px"><span class="rn" style="min-width:26px">1회</span><span class="ri">7/18~19 · 47명(초24/중23)</span></div>
-        <div class="rrow rg" style="padding:6px 10px;margin-bottom:3px"><span class="rn" style="min-width:26px">2회</span><span class="ri">7/25~26 · 38명(초12/중26)</span></div>
+        <div class="rrow rg" style="padding:6px 10px;margin-bottom:3px"><span class="rn" style="min-width:26px">2회</span><span class="ri">7/25~26 · 37명(초12/중25)</span></div>
         <div class="rrow rg" style="padding:6px 10px;margin-bottom:3px"><span class="rn" style="min-width:26px">3회</span><span class="ri">7/29~30 · 38명(초18/중20)</span></div>
         <div class="rrow rg" style="padding:6px 10px"><span class="rn" style="min-width:26px">4회</span><span class="ri">8/1~2 · 15명(중15)</span></div>
       </div>
       <div>
         <div style="font-size:12px;font-weight:700;color:#0D47A1;margin-bottom:5px">🌄 원주 134명 · 8클래스</div>
-        <div class="rrow rt" style="padding:6px 10px;margin-bottom:3px"><span class="rn" style="min-width:26px">1회</span><span class="ri">7/18~19 · 42명(초16/중26)</span></div>
+        <div class="rrow rt" style="padding:6px 10px;margin-bottom:3px"><span class="rn" style="min-width:26px">1회</span><span class="ri">7/18~19 · 41명(초16/중25)</span></div>
         <div class="rrow rt" style="padding:6px 10px;margin-bottom:3px"><span class="rn" style="min-width:26px">2회</span><span class="ri">7/25~26 · 32명(초17/중15)</span></div>
         <div class="rrow rt" style="padding:6px 10px;margin-bottom:3px"><span class="rn" style="min-width:26px">3회</span><span class="ri">7/29~30 · 30명(초8/중22)</span></div>
         <div class="rrow rt" style="padding:6px 10px"><span class="rn" style="min-width:26px">4회</span><span class="ri">8/1~2 · 31명(초17/중14)</span></div>
@@ -1345,7 +1387,7 @@ footer{display:flex;align-items:center;justify-content:center;gap:12px;text-alig
   <button class="tab" onclick="T('price',this)">📋 단가·집행기준</button>
   <button class="tab" onclick="T('audit',this)">🧾 회계감사</button>
   <button class="tab" onclick="T('prog',this)">📚 27차시 프로그램</button>
-  <button class="tab" onclick="T('instr',this)">🎤 강사진</button>
+  <button class="tab" onclick="T('instr',this)">🎤 강사진 및 학습자</button>
   <button class="tab" onclick="T('comp',this)">🎓 이수조건</button>
   <button class="tab" onclick="T('sched',this)">📆 추진일정</button>
   <button class="tab" onclick="T('cs',this)">📞 CS·안전·준수</button>
@@ -1551,7 +1593,7 @@ footer{display:flex;align-items:center;justify-content:center;gap:12px;text-alig
         <tr><td><span class="krc krc4">카드</span></td><td>최슬기 · 김진수 · 홍혜원</td></tr>
         <tr><td><span class="krc krc5">차량</span></td><td>최영선 · 유정규</td></tr>
       </tbody></table>
-      <div class="ki"><strong>1회</strong> 7/18~19·47명 &nbsp; <strong>2회</strong> 7/25~26·38명 &nbsp; <strong>3회</strong> 7/29~30·38명 &nbsp; <strong>4회</strong> 8/1~2·15명</div>
+      <div class="ki"><strong>1회</strong> 7/18~19·47명 &nbsp; <strong>2회</strong> 7/25~26·37명 &nbsp; <strong>3회</strong> 7/29~30·38명 &nbsp; <strong>4회</strong> 8/1~2·15명</div>
     </div>
     <div class="kbox">
       <div class="khd" style="background:#F2F8FE;color:#0D47A1">🌄 원주팀 — 134명 / 8클래스 / 4회</div>
@@ -1562,7 +1604,7 @@ footer{display:flex;align-items:center;justify-content:center;gap:12px;text-alig
         <tr><td><span class="krc krc3">시설</span></td><td>박재우</td></tr>
         <tr><td><span class="krc krc4">카드</span></td><td>유소윤 · 김다희 · 박재우</td></tr>
       </tbody></table>
-      <div class="ki"><strong>1회</strong> 7/18~19·42명 &nbsp; <strong>2회</strong> 7/25~26·32명 &nbsp; <strong>3회</strong> 7/29~30·30명 &nbsp; <strong>4회</strong> 8/1~2·31명</div>
+      <div class="ki"><strong>1회</strong> 7/18~19·41명 &nbsp; <strong>2회</strong> 7/25~26·32명 &nbsp; <strong>3회</strong> 7/29~30·30명 &nbsp; <strong>4회</strong> 8/1~2·31명</div>
     </div>
   </div>
 </div>
@@ -2533,7 +2575,6 @@ footer{display:flex;align-items:center;justify-content:center;gap:12px;text-alig
 <!-- ══ 강사진 ══ -->
 <div id="tab-instr" class="sec">
 
-
 <div class="it-notice">🎤 <strong>강사진 빠른 조회</strong> — 회차·클래스별 주강사(🟧)·보조강사 이름을 한 번에 확인할 수 있습니다. 아래 검색창에 강사 이름을 입력하면 해당 강사가 맡은 모든 회차가 강조됩니다.</div>
 
 <div class="it-filter-row">
@@ -2545,6 +2586,20 @@ footer{display:flex;align-items:center;justify-content:center;gap:12px;text-alig
 </div>
 
 <div id="it-body"></div>
+
+<!-- ══ 학습자 조편성 섹션 ══ -->
+<div class="lrn-section-title">👥 학습자 조편성 현황 — 3권역 강원 집합연수 (엑셀 기준 확정)</div>
+<div class="lrn-summary-row">
+  <div class="lrn-sum-card blue"><div class="lrn-sum-n">271명</div><div class="lrn-sum-l">3권역 전체</div></div>
+  <div class="lrn-sum-card blue"><div class="lrn-sum-n">137명</div><div class="lrn-sum-l">🌿 춘천 소계</div></div>
+  <div class="lrn-sum-card blue"><div class="lrn-sum-n">54명</div><div class="lrn-sum-l">춘천 초등</div></div>
+  <div class="lrn-sum-card blue"><div class="lrn-sum-n">83명</div><div class="lrn-sum-l">춘천 중등</div></div>
+  <div class="lrn-sum-card teal"><div class="lrn-sum-n">134명</div><div class="lrn-sum-l">🌄 원주 소계</div></div>
+  <div class="lrn-sum-card teal"><div class="lrn-sum-n">58명</div><div class="lrn-sum-l">원주 초등</div></div>
+  <div class="lrn-sum-card teal"><div class="lrn-sum-n">76명</div><div class="lrn-sum-l">원주 중등</div></div>
+</div>
+
+<div id="lrn-body"></div>
 
 </div>
 
@@ -4938,6 +4993,121 @@ function foodFilterRegion(region, btn){
   foodRender(region);
 }
 
+/* ══ 학습자 조편성 데이터 (엑셀 기준 확정 2026.06.29) ══ */
+var LRN_DATA = {
+  cc: {
+    label: '🌿 춘천 (ORA춘천베어스호텔)', cls: 'cc',
+    total: 137,
+    schools: [
+      {
+        type: '초등', typeCls: 'elem', place: '사파이어홀', total: 54,
+        rounds: [
+          {r:'1회차', date:'7/18~19', total:24, groups:[6,6,6,6]},
+          {r:'2회차', date:'7/25~26', total:12, groups:[6,6]},
+          {r:'3회차', date:'7/29~30', total:18, groups:[6,6,6]},
+        ]
+      },
+      {
+        type: '중등', typeCls: 'mid', place: '의암홀', total: 83,
+        rounds: [
+          {r:'1회차', date:'7/18~19', total:23, groups:[6,5,6,6]},
+          {r:'2회차', date:'7/25~26', total:25, groups:[4,4,5,4,3,5]},
+          {r:'3회차', date:'7/29~30', total:20, groups:[4,3,6,4,3]},
+          {r:'4회차', date:'8/1~2',   total:15, groups:[4,4,4,3]},
+        ]
+      }
+    ]
+  },
+  wj: {
+    label: '🌄 원주 (호텔인터불고 원주)', cls: 'wj',
+    total: 134,
+    schools: [
+      {
+        type: '초등', typeCls: 'elem', place: '아테나홀', total: 58,
+        rounds: [
+          {r:'1회차', date:'7/18~19', total:16, groups:[6,5,5]},
+          {r:'2회차', date:'7/25~26', total:17, groups:[6,6,5]},
+          {r:'3회차', date:'7/29~30', total:8,  groups:[4,4]},
+          {r:'4회차', date:'8/1~2',   total:17, groups:[6,6,5]},
+        ]
+      },
+      {
+        type: '중등', typeCls: 'mid', place: '제우스헤라홀', total: 76,
+        rounds: [
+          {r:'1회차', date:'7/18~19', total:25, groups:[5,4,4,4,5,3]},
+          {r:'2회차', date:'7/25~26', total:15, groups:[4,4,4,3]},
+          {r:'3회차', date:'7/29~30', total:22, groups:[5,4,4,4,5]},
+          {r:'4회차', date:'8/1~2',   total:14, groups:[5,3,6]},
+        ]
+      }
+    ]
+  }
+};
+
+function lrnBuild(){
+  var body = document.getElementById('lrn-body');
+  if(!body) return;
+  body.innerHTML = '';
+  Object.keys(LRN_DATA).forEach(function(key){
+    var region = LRN_DATA[key];
+    var regionBlock = document.createElement('div');
+    regionBlock.className = 'lrn-region-block';
+    var hd = document.createElement('div');
+    hd.className = 'lrn-region-hd ' + region.cls;
+    hd.innerHTML = region.label + ' &nbsp;<strong>합계 ' + region.total + '명</strong>';
+    regionBlock.appendChild(hd);
+
+    region.schools.forEach(function(school){
+      var sb = document.createElement('div');
+      sb.className = 'lrn-school-block ' + region.cls;
+      var shd = document.createElement('div');
+      shd.className = 'lrn-school-hd';
+      var typeTag = '<span class="lrn-school-type ' + region.cls + ' ' + school.typeCls + '">' + school.type + '</span>';
+      shd.innerHTML = typeTag +
+        '<span class="lrn-school-place">📍 ' + school.place + '</span>' +
+        '<span class="lrn-school-total">합계 ' + school.total + '명</span>';
+      sb.appendChild(shd);
+
+      school.rounds.forEach(function(round){
+        var rb = document.createElement('div');
+        rb.className = 'lrn-round-block';
+        var rhd = document.createElement('div');
+        rhd.className = 'lrn-round-hd';
+        rhd.innerHTML =
+          '<span class="lrn-round-badge">' + round.r + '</span>' +
+          '<span class="lrn-round-date">📅 ' + round.date + '</span>' +
+          '<span class="lrn-round-cnt">총 <strong>' + round.total + '명</strong> / ' + round.groups.length + '개조</span>';
+        rb.appendChild(rhd);
+
+        var grid = document.createElement('div');
+        grid.className = 'lrn-table-grid';
+        round.groups.forEach(function(cnt, gi){
+          var card = document.createElement('div');
+          card.className = 'lrn-table-card ' + region.cls;
+          var topSeats = Math.ceil(cnt/2);
+          var btmSeats = Math.floor(cnt/2);
+          var topHtml = '', btmHtml = '';
+          for(var i=0;i<topSeats;i++) topHtml += '<span class="lrn-seat">'+(i+1)+'</span>';
+          for(var j=0;j<btmSeats;j++) btmHtml += '<span class="lrn-seat">'+(topSeats+j+1)+'</span>';
+          card.innerHTML =
+            '<div class="lrn-table-hd">조 ' + (gi+1) + '</div>' +
+            '<div class="lrn-table-seats">' +
+              '<div class="lrn-seat-row">' + topHtml + '</div>' +
+              '<div style="height:6px;background:#ddd;margin:4px 2px;border-radius:2px"></div>' +
+              '<div class="lrn-seat-row">' + btmHtml + '</div>' +
+            '</div>' +
+            '<div class="lrn-table-count">' + cnt + '명</div>';
+          grid.appendChild(card);
+        });
+        rb.appendChild(grid);
+        sb.appendChild(rb);
+      });
+      regionBlock.appendChild(sb);
+    });
+    body.appendChild(regionBlock);
+  });
+}
+
 /* ══ 강사진 탭 ══ */
 var IT_DATA = {
   '6r': {
@@ -5065,7 +5235,7 @@ function navLogoSetChar(){
   }
 }
 
-hwUpdateDday(); hwStartProgressWatch(); hwCheckTodayAlert(); hcvRun(); itBuild(); foodBuild(); pmBuild(); navLogoSetChar();
+hwUpdateDday(); hwStartProgressWatch(); hwCheckTodayAlert(); hcvRun(); itBuild(); lrnBuild(); foodBuild(); pmBuild(); navLogoSetChar();
 
 </script>
 </body>
